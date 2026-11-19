@@ -907,7 +907,7 @@ def run_news_analysis(news, article_url=None):
 
                 st.warning(
                     "Fact Check API key not found. "
-                    "Only Gemini analysis is available."
+                    "Only  analysis is available."
                 )
 
         # Level 7: Final report
@@ -933,7 +933,7 @@ def run_news_analysis(news, article_url=None):
         ):
 
             st.error(
-                "Gemini's request limit has been "
+                " Rrequest limit has been "
                 "reached. Please wait before trying again."
             )
 
@@ -945,7 +945,7 @@ def run_news_analysis(news, article_url=None):
         ):
 
             st.error(
-                "Gemini access was denied. "
+                " Access was denied. "
                 "Please check your API key and API access."
             )
 
@@ -959,7 +959,7 @@ def run_news_analysis(news, article_url=None):
         elif is_temporary_error(error):
 
             st.error(
-                "Gemini is temporarily unavailable "
+                " VerifAI is temporarily unavailable "
                 "or taking too long to respond. "
                 "Please try again shortly."
             )
